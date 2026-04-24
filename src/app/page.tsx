@@ -27,7 +27,7 @@ const Home = () =>{
             <div className=""><Image src="/aabbcc.gif" alt="..." width={400} height={400}></Image></div>
           <div className="">
             <div className="border-l-2 text-[#9ca3af] flex flex-col justify-center items-center absolute bottom-0 text-[14px]">
-            <p className="p-3">I'm <span className="text-[#7DD3FC]"> Karan Bisht </span> ,a UI designer,frontend web developer and an illustrator</p>
+            <p className="p-3">I&apos;m <span className="text-[#7DD3FC]"> Karan Bisht </span> ,a UI designer,frontend web developer and an illustrator</p>
             <Link href="/"><button className=" bg-[#7DD3FC] rounded-[3px] font-bold p-2 text-[#1e1e26] cursor-pointer hover:scale-95">Download CV</button></Link>
           </div>
           </div>
