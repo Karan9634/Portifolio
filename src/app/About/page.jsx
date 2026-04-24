@@ -2,16 +2,9 @@ import Image from 'next/image'
 import Skillbar from '@/components/Skillbar.jsx'
 import Link from 'next/link'
 
-import {Poppins} from 'next/font/google'
-
-const poppins = Poppins({
-    subsets: ['latin'],
-    weight: ['400','700'],
-})
-
 const About = () => {
     return (
-        <div className={poppins.className}>
+        <div>
             <div className="w-[100vw] h-[100vh] bg-[#2b2a33] flex flex-col justify-center items-center">
                 <div className="w-[50vw] h-[40vh] bg-[#1e1e26] rounded-2xl flex flex-col justify-center items-center shadow-2xl">
                 <h1 className="text-2xl p-1 text-white ">About Me</h1>
