@@ -4,7 +4,7 @@ import Footer from "@/components/Footer.jsx"
 import '@/app/globals.css'
 
 import {Poppins} from 'next/font/google'
-import {IBM_Plex_Mono} from 'next/font/google'
+// import {IBM_Plex_Mono} from 'next/font/google'
 import {Fira_Code} from 'next/font/google'
 
 const roboto = Poppins({
