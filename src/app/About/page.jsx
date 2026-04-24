@@ -9,7 +9,7 @@ const poppins = Poppins({
     weight: ['400','700'],
 })
 
-const contact = () => {
+const About = () => {
     return (
         <div className={poppins.className}>
             <div className="w-[100vw] h-[100vh] bg-[#2b2a33] flex flex-col justify-center items-center">
@@ -42,4 +42,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default About
